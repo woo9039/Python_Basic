@@ -41,3 +41,43 @@ print(msg[:])  # 전부 출력
 # 역방향 인덱스 ->
 print(msg[18:22])
 print(msg[-4:])
+
+# 4.문자열 함수
+str = "Hello world"
+
+print("=" * 100)
+# 4-1.len()  문자열 길이 계산
+print(len(str))
+
+# 4-2.upper() and lower() : 대소문자 변경
+print(str.upper())
+print(str.lower())
+
+# 4-3.replace() : 문자열 내의 특정 문자 치환
+print(str.replace("H", "J"))
+
+# 4-4.split() : 구분자를 기준으로 문자열 분할(Default: 공백)
+b = "hello world what a nice weather"
+print(b.split("w"))
+print(b.split())
+
+# 4-5.strip() : 문자열의 좌우 공백을 제거
+id = "                    python1004   "
+
+# 4-6.find() and rfind() : 문자열 내부의 특정 문자 위치 인덱스 출력
+print(str.find("o"))
+print(str.rfind("o"))
+print(str.find("world"))
+print(str.find("World"))
+print(str.rfind("World"))
+
+# 4-7.in() : 특정 문자열 포함하는지 확인(True, False 출력)
+print("Hi" in "Hi Python")
+
+# 1. id = "cherry1004@gmail.com"
+# -> id만 추출 cherry1004
+#  "job1234@gmail.com"
+#  "abc@gmail.com"
+id = "cherry1004@gmail.com"
+val = id[:id.find("@")]
+print(val)
