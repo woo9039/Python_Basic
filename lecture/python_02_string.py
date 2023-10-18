@@ -63,6 +63,7 @@ print(b.split())
 
 # 4-5.strip() : 문자열의 좌우 공백을 제거
 id = "                    python1004   "
+print(id.strip())
 
 # 4-6.find() and rfind() : 문자열 내부의 특정 문자 위치 인덱스 출력
 print(str.find("o"))

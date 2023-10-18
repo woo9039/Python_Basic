@@ -61,7 +61,7 @@ print(int(str_int_c))
 # 2) 문자열 정수형("9") -> 실수형(9.0)
 print(float(str_int_c))
 # 3) 문자열 실수형("9.2") -> 정수형 (ERROR: X)
-#print(int(str_float_d))
+# print(int(str_float_d))
 # 4) 문자열 실수형("9.2") -> 실수형(9.2)
 print(float(str_float_d))
 # 5) 정수형(3) -> 실수형(3.0)
@@ -75,7 +75,7 @@ print(str(float_b))  #
 # * float("Hello"), int("Hello") 형 변환 불가!
 
 # None
-# - 아무런 갑을 갖지 않을 때 사용
+# - 아무런 값을 갖지 않을 때 사용
 # - 일반적으로 변수가 초기값을 갖지 않게 변수만 생성하고 싶을 때 사용
 # - 기타 언어의 NUll과 같은 의미로 사용!
 # 예) stduent_name
@@ -187,5 +187,3 @@ num = 9
 num - 1
 num + 2
 print(num)
-
-print("Heelo")

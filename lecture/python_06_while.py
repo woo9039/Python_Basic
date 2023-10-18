@@ -3,7 +3,7 @@
 #  - 조건이 만족하는 동안 계속 반복
 #  - 조건 True이면 무한 반복
 #  - 조건 False이면 반복 종료
-#  - while문에 족ㄴ True => 무한 Loop문(조심!!)
+#  - while문에 조건 True => 무한 Loop문(조심!!)
 #    -> 반드시 break문과 함께 사용할것!
 
 # while 기본 문법

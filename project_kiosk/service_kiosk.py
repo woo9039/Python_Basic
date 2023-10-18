@@ -17,3 +17,7 @@ def user_choice(max_cnt, menu_type):
             return choice
         else:
             print("MSG: 올바른 번호를 입력하세요.")
+
+
+
+
