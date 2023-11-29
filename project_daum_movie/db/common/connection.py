@@ -22,11 +22,11 @@ def connection():
             port=3306,
             user="root",
             password="1234",
-            db="simple",
+            db="daum",
             charset="utf8",
             autocommit=True,
-            cursorclass=pymysql.cursoors.DictCursor
+            cursorclass=pymysql.cursors.DictCursor
         )
         return conn
-    except pymysl.Error as e:
+    except pymysql.Error as e:
         print(f"MARIADB 연결 실패 {e}")
